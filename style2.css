@@ -45,6 +45,7 @@ h1 {
     font-size: 16px;
     justify-content: center;
     text-align: center;
+font-weight: normal;
 }
 
 main{
@@ -61,6 +62,7 @@ main{
 .tenis-card{
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .esquerda{
@@ -136,4 +138,10 @@ a{
 .j{
     align-items: center;
     justify-content: center;
+}
+.direita{
+    font-size: 25px;
+}
+ .tenis-1{
+    border: solid 1px #000;
 }
